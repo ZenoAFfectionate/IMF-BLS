@@ -1,6 +1,0 @@
-{"timestamp": "2026-05-28 10:38:10", "elapsed_s": 3.268155, "method": "Non-Incremental BLS", "final_metric": 0.732125, "total_time": 3.0413112500027637}
-{"timestamp": "2026-05-28 10:38:54", "elapsed_s": 47.624451, "method": "Incremental BLS", "final_metric": 0.1055, "total_time": 43.29234625100071}
-{"timestamp": "2026-05-28 10:39:18", "elapsed_s": 71.956156, "method": "TiBLS", "final_metric": 0.732125, "total_time": 23.26303212599305}
-{"timestamp": "2026-05-28 10:39:29", "elapsed_s": 82.94193, "method": "Approximation Method", "final_metric": 0.634625, "total_time": 9.942083791996993}
-{"timestamp": "2026-05-28 10:39:36", "elapsed_s": 89.383312, "method": "RI-BLS", "final_metric": 0.732125, "total_time": 5.387145790999057}
-{"timestamp": "2026-05-28 10:40:07", "elapsed_s": 120.211779, "method": "IMF-BLS (Ours)", "final_metric": 0.732125, "total_time": 29.795299250006792}

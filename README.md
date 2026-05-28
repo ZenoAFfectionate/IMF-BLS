@@ -28,6 +28,7 @@
   * [4.1 验证算法正确性](#41-验证算法正确性所有-69-个测试--1-秒)
   * [4.2 跑论文三大场景](#42-跑论文三大场景)
   * [4.3 复现论文 MNIST 实验](#43-复现论文-mnist-实验)
+  * [4.4 复现论文 Table 5 / Table 6（UCI）](#44-复现论文-table-5--table-6uci)
 * [5. 作为库使用](#5-作为库使用)
 * [6. 论文 ↔ 代码映射](#6-论文--代码映射)
 * [7. 关键工程细节](#7-关键工程细节)
@@ -132,8 +133,8 @@ IMF-BLS/                          (本仓库根目录名仍为 Inverse-BLS，无
 │   ├── test_scripts.py           #   scripts/*.sh 可运行性 (36)
 │   └── test_scalability.py       #   ⭐ 海量数据可扩展性 (6, slow)
 │
-├── data/                         # 用户自备数据集（如 MNIST IDX 文件）
-└── results/                      # main.py 输出（JSON + 曲线图）
+├── data/                         # 用户自备数据集（不入库，运行 scripts/download_datasets.sh 自动下载）
+└── results/                      # main.py / reproduce.py 输出（不入库，运行后自动生成）
 ```
 
 > 包名 / 类名采用 `IMFBLS`，仓库目录与 git 引用名仍为 `Inverse-BLS`（与论文标题一致）。
@@ -157,6 +158,44 @@ pip install -r requirements.txt
 | `pytest >= 7` | 可选 | 运行测试 |
 
 仅装 `numpy` 即可跑通核心算法 + 合成数据实验 + 全部测试。
+
+### 3.1 下载数据集（论文 UCI / LIBSVM 复现实验）
+
+仓库 **不再** 把数据文件入库（首次 clone 后 `data/` 仅含占位文件）。
+请通过下面的脚本下载论文 Section 4 / Table 5 / Table 6 所需的全部公开数据集：
+
+```bash
+# 一键下载全部 UCI / LIBSVM 数据集（约 20 MB）
+bash scripts/download_datasets.sh
+
+# 也可只下载某一个数据集
+bash scripts/download_datasets.sh letter
+bash scripts/download_datasets.sh abalone
+
+# 强制重新下载（覆盖已存在的文件）
+bash scripts/download_datasets.sh -f
+```
+
+脚本会按论文配置把数据放到下面的目录结构：
+
+```
+data/uci/
+├── abalone/abalone.data                       # Table 6 回归
+├── appliances_energy/energydata_complete.csv  # Table 6 回归
+├── bodyfat/bodyfat                            # Table 6 回归（LIBSVM）
+├── energy_efficiency/ENB2012_data.xlsx        # Table 6 回归
+├── letter/letter-recognition.data             # Table 5 分类
+├── pendigits/pendigits.tra | .tes             # Table 5 分类
+├── shuttle/shuttle.scale | .scale.t           # Table 5 分类（LIBSVM）
+└── waveform/waveform.zip                      # Table 5 分类
+```
+
+> **数据来源**：UCI Machine Learning Repository
+> (`https://archive.ics.uci.edu/`) 与 LIBSVM datasets
+> (`https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/`)，
+> 均为公开学术数据集；版权归原作者。
+> **依赖**：`curl` 或 `wget`，可选 `unzip` / `uncompress`（用于 `waveform.zip`）。
+> **MNIST 数据集**：仍需手动放到 `data/mnist/`，见 [4.3 节](#43-复现论文-mnist-实验) 或运行 `bash scripts/download_mnist.sh`。
 
 ---
 
@@ -251,6 +290,28 @@ python main.py --scenario equal_scale --dataset mnist \
 ```
 
 > 论文用 60000 训练样本 + 5000 enhancement 节点，单次跑数分钟到十几分钟（CPU）。
+
+### 4.4 复现论文 Table 5 / Table 6（UCI）
+
+确认已运行 `bash scripts/download_datasets.sh` 后，可直接复现论文表格：
+
+```bash
+# Table 5：分类（letter / pendigits / shuttle / waveform / led）
+bash scripts/table5.sh
+# 或
+python reproduce.py --table 5
+
+# Table 6：回归（abalone / bodyfat / appliances_energy / energy_efficiency）
+bash scripts/table6.sh
+
+# Table 7（可选）：节点增量
+bash scripts/table7.sh
+
+# 一键全部
+bash scripts/run_all.sh
+```
+
+输出位于 `results/reproduce/table{5,6,7}/<dataset>/`，含 `metrics.{json,csv,jsonl}`、`config.json`、`run.log` 与 Markdown 报告 `report.md`。
 
 ---
 
