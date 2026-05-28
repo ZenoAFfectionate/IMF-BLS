@@ -1,0 +1,25 @@
+[2026-05-28 09:49:58] INFO    imf_bls.table5@led | =================================================================
+[2026-05-28 09:49:58] INFO    imf_bls.table5@led | Reproducing paper Table 5 | dataset=led
+[2026-05-28 09:49:58] INFO    imf_bls.table5@led | =================================================================
+[2026-05-28 09:49:58] INFO    imf_bls.table5@led | Train=160000, Test=40000, classes=10, batches=5
+[2026-05-28 09:50:15] INFO    imf_bls.table5@led |   Non-Incremental BLS    | final acc = 0.7392 | total = 16.3293s
+[2026-05-28 10:29:17] INFO    imf_bls.table5@led | =================================================================
+[2026-05-28 10:29:17] INFO    imf_bls.table5@led | Reproducing paper Table 5 | dataset=led
+[2026-05-28 10:29:17] INFO    imf_bls.table5@led | =================================================================
+[2026-05-28 10:29:17] INFO    imf_bls.table5@led | Train=30000, Test=8000, classes=10, batches=5
+[2026-05-28 10:29:20] INFO    imf_bls.table5@led |   Non-Incremental BLS    | final acc = 0.7321 | total = 3.0148s
+[2026-05-28 10:30:04] INFO    imf_bls.table5@led |   Incremental BLS        | final acc = 0.1055 | total = 42.8813s
+[2026-05-28 10:30:28] INFO    imf_bls.table5@led |   TiBLS                  | final acc = 0.7321 | total = 23.1221s
+[2026-05-28 10:30:39] INFO    imf_bls.table5@led |   Approximation Method   | final acc = 0.6346 | total = 9.8043s
+[2026-05-28 10:30:45] INFO    imf_bls.table5@led |   RI-BLS                 | final acc = 0.7321 | total = 5.2610s
+[2026-05-28 10:31:15] INFO    imf_bls.table5@led |   IMF-BLS (Ours)         | final acc = 0.7321 | total = 29.3639s
+[2026-05-28 10:38:06] INFO    imf_bls.table5@led | =================================================================
+[2026-05-28 10:38:06] INFO    imf_bls.table5@led | Reproducing paper Table 5 | dataset=led
+[2026-05-28 10:38:06] INFO    imf_bls.table5@led | =================================================================
+[2026-05-28 10:38:06] INFO    imf_bls.table5@led | Train=30000, Test=8000, classes=10, batches=5
+[2026-05-28 10:38:10] INFO    imf_bls.table5@led |   Non-Incremental BLS    | final acc = 0.7321 | total = 3.0413s
+[2026-05-28 10:38:54] INFO    imf_bls.table5@led |   Incremental BLS        | final acc = 0.1055 | total = 43.2923s
+[2026-05-28 10:39:18] INFO    imf_bls.table5@led |   TiBLS                  | final acc = 0.7321 | total = 23.2630s
+[2026-05-28 10:39:29] INFO    imf_bls.table5@led |   Approximation Method   | final acc = 0.6346 | total = 9.9421s
+[2026-05-28 10:39:36] INFO    imf_bls.table5@led |   RI-BLS                 | final acc = 0.7321 | total = 5.3871s
+[2026-05-28 10:40:07] INFO    imf_bls.table5@led |   IMF-BLS (Ours)         | final acc = 0.7321 | total = 29.7953s

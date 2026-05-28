@@ -1,0 +1,18 @@
+{"timestamp": "2026-05-28 10:26:12", "elapsed_s": 0.323611, "method": "Non-Incremental BLS", "repeat": 0, "rmse": 0.010261085373454201, "time": 0.0015688329949625768}
+{"timestamp": "2026-05-28 10:26:12", "elapsed_s": 0.325597, "method": "Non-Incremental BLS", "repeat": 1, "rmse": 0.007334231459154584, "time": 0.0016244590005953796}
+{"timestamp": "2026-05-28 10:26:12", "elapsed_s": 0.3273, "method": "Non-Incremental BLS", "repeat": 2, "rmse": 0.008371805588320786, "time": 0.0013931670036981814}
+{"timestamp": "2026-05-28 10:26:12", "elapsed_s": 0.329473, "method": "Incremental BLS", "repeat": 0, "rmse": 0.010261084099011067, "time": 0.00165095799457049}
+{"timestamp": "2026-05-28 10:26:12", "elapsed_s": 0.33124, "method": "Incremental BLS", "repeat": 1, "rmse": 0.007334232470789448, "time": 0.0013439579997793771}
+{"timestamp": "2026-05-28 10:26:12", "elapsed_s": 0.333389, "method": "Incremental BLS", "repeat": 2, "rmse": 0.00837180506083001, "time": 0.0017408330022590235}
+{"timestamp": "2026-05-28 10:26:12", "elapsed_s": 0.334579, "method": "Approximation Method", "repeat": 0, "rmse": 0.006962561313464867, "time": 0.0007577500000479631}
+{"timestamp": "2026-05-28 10:26:12", "elapsed_s": 0.335911, "method": "Approximation Method", "repeat": 1, "rmse": 0.006361803146716784, "time": 0.0009554579955874942}
+{"timestamp": "2026-05-28 10:26:12", "elapsed_s": 0.337257, "method": "Approximation Method", "repeat": 2, "rmse": 0.006180020791879776, "time": 0.0009502920001978055}
+{"timestamp": "2026-05-28 10:26:12", "elapsed_s": 0.340104, "method": "TiBLS", "repeat": 0, "rmse": 0.010060054529639224, "time": 0.002263499998662155}
+{"timestamp": "2026-05-28 10:26:12", "elapsed_s": 0.342577, "method": "TiBLS", "repeat": 1, "rmse": 0.007813739725763038, "time": 0.0020836670009884983}
+{"timestamp": "2026-05-28 10:26:12", "elapsed_s": 0.344964, "method": "TiBLS", "repeat": 2, "rmse": 0.008071479248834997, "time": 0.0020624580065486953}
+{"timestamp": "2026-05-28 10:26:12", "elapsed_s": 0.348052, "method": "RI-BLS", "repeat": 0, "rmse": 0.010261086801511115, "time": 0.002633208001498133}
+{"timestamp": "2026-05-28 10:26:12", "elapsed_s": 0.351005, "method": "RI-BLS", "repeat": 1, "rmse": 0.0073342314427824505, "time": 0.0025102500003413297}
+{"timestamp": "2026-05-28 10:26:12", "elapsed_s": 0.353726, "method": "RI-BLS", "repeat": 2, "rmse": 0.00837180572252399, "time": 0.002380208003160078}
+{"timestamp": "2026-05-28 10:26:12", "elapsed_s": 0.36797, "method": "IMF-BLS (Ours)", "repeat": 0, "rmse": 0.01026108604889633, "time": 0.013793416997941677}
+{"timestamp": "2026-05-28 10:26:12", "elapsed_s": 0.381328, "method": "IMF-BLS (Ours)", "repeat": 1, "rmse": 0.0073342321468170225, "time": 0.012807416002033278}
+{"timestamp": "2026-05-28 10:26:12", "elapsed_s": 0.393997, "method": "IMF-BLS (Ours)", "repeat": 2, "rmse": 0.008371807512080977, "time": 0.01217454199650092}

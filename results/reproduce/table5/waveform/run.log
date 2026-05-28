@@ -1,0 +1,23 @@
+[2026-05-28 10:27:57] INFO    imf_bls.table5@waveform | =================================================================
+[2026-05-28 10:27:57] INFO    imf_bls.table5@waveform | Reproducing paper Table 5 | dataset=waveform
+[2026-05-28 10:27:57] INFO    imf_bls.table5@waveform | =================================================================
+[2026-05-28 10:28:35] INFO    imf_bls.table5@waveform | =================================================================
+[2026-05-28 10:28:35] INFO    imf_bls.table5@waveform | Reproducing paper Table 5 | dataset=waveform
+[2026-05-28 10:28:35] INFO    imf_bls.table5@waveform | =================================================================
+[2026-05-28 10:28:35] INFO    imf_bls.table5@waveform | Train=4200, Test=800, classes=3, batches=5
+[2026-05-28 10:28:35] INFO    imf_bls.table5@waveform |   Non-Incremental BLS    | final acc = 0.8462 | total = 0.0226s
+[2026-05-28 10:28:35] INFO    imf_bls.table5@waveform |   Incremental BLS        | final acc = 0.2938 | total = 0.1572s
+[2026-05-28 10:28:36] INFO    imf_bls.table5@waveform |   TiBLS                  | final acc = 0.8462 | total = 0.0858s
+[2026-05-28 10:28:36] INFO    imf_bls.table5@waveform |   Approximation Method   | final acc = 0.7525 | total = 0.0495s
+[2026-05-28 10:28:36] INFO    imf_bls.table5@waveform |   RI-BLS                 | final acc = 0.8462 | total = 0.0313s
+[2026-05-28 10:28:36] INFO    imf_bls.table5@waveform |   IMF-BLS (Ours)         | final acc = 0.8462 | total = 0.1538s
+[2026-05-28 10:38:06] INFO    imf_bls.table5@waveform | =================================================================
+[2026-05-28 10:38:06] INFO    imf_bls.table5@waveform | Reproducing paper Table 5 | dataset=waveform
+[2026-05-28 10:38:06] INFO    imf_bls.table5@waveform | =================================================================
+[2026-05-28 10:38:06] INFO    imf_bls.table5@waveform | Train=4200, Test=800, classes=3, batches=5
+[2026-05-28 10:38:06] INFO    imf_bls.table5@waveform |   Non-Incremental BLS    | final acc = 0.8462 | total = 0.0233s
+[2026-05-28 10:38:06] INFO    imf_bls.table5@waveform |   Incremental BLS        | final acc = 0.2938 | total = 0.1624s
+[2026-05-28 10:38:06] INFO    imf_bls.table5@waveform |   TiBLS                  | final acc = 0.8462 | total = 0.0892s
+[2026-05-28 10:38:06] INFO    imf_bls.table5@waveform |   Approximation Method   | final acc = 0.7525 | total = 0.0527s
+[2026-05-28 10:38:06] INFO    imf_bls.table5@waveform |   RI-BLS                 | final acc = 0.8462 | total = 0.0322s
+[2026-05-28 10:38:06] INFO    imf_bls.table5@waveform |   IMF-BLS (Ours)         | final acc = 0.8462 | total = 0.1584s

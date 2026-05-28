@@ -1,0 +1,18 @@
+{"timestamp": "2026-05-28 10:27:26", "elapsed_s": 0.144165, "method": "Non-Incremental BLS", "repeat": 0, "rmse": 91.00195349314593, "time": 0.07251425000140443}
+{"timestamp": "2026-05-28 10:27:26", "elapsed_s": 0.228518, "method": "Non-Incremental BLS", "repeat": 1, "rmse": 90.8882169494678, "time": 0.07279674999881536}
+{"timestamp": "2026-05-28 10:27:26", "elapsed_s": 0.312394, "method": "Non-Incremental BLS", "repeat": 2, "rmse": 90.91387710361114, "time": 0.07272312499844702}
+{"timestamp": "2026-05-28 10:27:29", "elapsed_s": 3.088228, "method": "Incremental BLS", "repeat": 0, "rmse": 825.3278267379916, "time": 2.761626959007117}
+{"timestamp": "2026-05-28 10:27:32", "elapsed_s": 5.829006, "method": "Incremental BLS", "repeat": 1, "rmse": 743.0387755811184, "time": 2.7278742079943186}
+{"timestamp": "2026-05-28 10:27:35", "elapsed_s": 8.601371, "method": "Incremental BLS", "repeat": 2, "rmse": 938.8442267225904, "time": 2.7588191670001834}
+{"timestamp": "2026-05-28 10:27:35", "elapsed_s": 8.766967, "method": "Approximation Method", "repeat": 0, "rmse": 92.50880691260288, "time": 0.15269516599801136}
+{"timestamp": "2026-05-28 10:27:35", "elapsed_s": 8.935549, "method": "Approximation Method", "repeat": 1, "rmse": 92.36084655481403, "time": 0.15586404199711978}
+{"timestamp": "2026-05-28 10:27:35", "elapsed_s": 9.103017, "method": "Approximation Method", "repeat": 2, "rmse": 92.41257850328462, "time": 0.15548687500267988}
+{"timestamp": "2026-05-28 10:27:37", "elapsed_s": 10.861233, "method": "TiBLS", "repeat": 0, "rmse": 91.001165497351, "time": 1.746823041998141}
+{"timestamp": "2026-05-28 10:27:39", "elapsed_s": 12.639145, "method": "TiBLS", "repeat": 1, "rmse": 90.8876458741243, "time": 1.7660677500025486}
+{"timestamp": "2026-05-28 10:27:40", "elapsed_s": 14.399423, "method": "TiBLS", "repeat": 2, "rmse": 90.90977992536892, "time": 1.7485441669996362}
+{"timestamp": "2026-05-28 10:27:41", "elapsed_s": 14.490513, "method": "RI-BLS", "repeat": 0, "rmse": 91.00194066361519, "time": 0.07884604200080503}
+{"timestamp": "2026-05-28 10:27:41", "elapsed_s": 14.578744, "method": "RI-BLS", "repeat": 1, "rmse": 90.88825222763215, "time": 0.07648029200208839}
+{"timestamp": "2026-05-28 10:27:41", "elapsed_s": 14.667433, "method": "RI-BLS", "repeat": 2, "rmse": 90.91387056218548, "time": 0.07671104199835099}
+{"timestamp": "2026-05-28 10:27:41", "elapsed_s": 15.115714, "method": "IMF-BLS (Ours)", "repeat": 0, "rmse": 91.00194693054176, "time": 0.43611308300023666}
+{"timestamp": "2026-05-28 10:27:42", "elapsed_s": 15.54393, "method": "IMF-BLS (Ours)", "repeat": 1, "rmse": 90.88824942126546, "time": 0.416341290998389}
+{"timestamp": "2026-05-28 10:27:42", "elapsed_s": 15.973129, "method": "IMF-BLS (Ours)", "repeat": 2, "rmse": 90.91387365618726, "time": 0.41741191699838964}

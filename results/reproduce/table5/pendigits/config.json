@@ -1,0 +1,21 @@
+{
+  "experiment": "table5@pendigits",
+  "started_at": "2026-05-28 10:35:08",
+  "config": {
+    "table": "5",
+    "dataset": "pendigits",
+    "n_train": 7494,
+    "n_test": 3498,
+    "n_classes": 10,
+    "n_batches": 5,
+    "seed": 0,
+    "bls": {
+      "n_mapping_per_window": 10,
+      "n_mapping_windows": 10,
+      "n_enhancement": 1000,
+      "reg_lambda": 1e-06,
+      "activation": "tanh",
+      "seed": 0
+    }
+  }
+}

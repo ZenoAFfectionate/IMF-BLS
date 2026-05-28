@@ -1,0 +1,20 @@
+[2026-05-28 10:21:45] INFO    imf_bls.table5@pendigits | =================================================================
+[2026-05-28 10:21:45] INFO    imf_bls.table5@pendigits | Reproducing paper Table 5 | dataset=pendigits
+[2026-05-28 10:21:45] INFO    imf_bls.table5@pendigits | =================================================================
+[2026-05-28 10:21:48] INFO    imf_bls.table5@pendigits | Train=7494, Test=3498, classes=10, batches=5
+[2026-05-28 10:21:48] INFO    imf_bls.table5@pendigits |   Non-Incremental BLS    | final acc = 0.9803 | total = 0.0849s
+[2026-05-28 10:21:49] INFO    imf_bls.table5@pendigits |   Incremental BLS        | final acc = 0.1132 | total = 0.7127s
+[2026-05-28 10:21:50] INFO    imf_bls.table5@pendigits |   TiBLS                  | final acc = 0.9803 | total = 0.3709s
+[2026-05-28 10:21:50] INFO    imf_bls.table5@pendigits |   Approximation Method   | final acc = 0.9708 | total = 0.1636s
+[2026-05-28 10:21:50] INFO    imf_bls.table5@pendigits |   RI-BLS                 | final acc = 0.9803 | total = 0.0889s
+[2026-05-28 10:21:51] INFO    imf_bls.table5@pendigits |   IMF-BLS (Ours)         | final acc = 0.9803 | total = 0.5362s
+[2026-05-28 10:35:08] INFO    imf_bls.table5@pendigits | =================================================================
+[2026-05-28 10:35:08] INFO    imf_bls.table5@pendigits | Reproducing paper Table 5 | dataset=pendigits
+[2026-05-28 10:35:08] INFO    imf_bls.table5@pendigits | =================================================================
+[2026-05-28 10:35:08] INFO    imf_bls.table5@pendigits | Train=7494, Test=3498, classes=10, batches=5
+[2026-05-28 10:35:08] INFO    imf_bls.table5@pendigits |   Non-Incremental BLS    | final acc = 0.9803 | total = 0.0730s
+[2026-05-28 10:35:09] INFO    imf_bls.table5@pendigits |   Incremental BLS        | final acc = 0.1132 | total = 0.7156s
+[2026-05-28 10:35:09] INFO    imf_bls.table5@pendigits |   TiBLS                  | final acc = 0.9803 | total = 0.3788s
+[2026-05-28 10:35:10] INFO    imf_bls.table5@pendigits |   Approximation Method   | final acc = 0.9708 | total = 0.1681s
+[2026-05-28 10:35:10] INFO    imf_bls.table5@pendigits |   RI-BLS                 | final acc = 0.9803 | total = 0.0925s
+[2026-05-28 10:35:10] INFO    imf_bls.table5@pendigits |   IMF-BLS (Ours)         | final acc = 0.9803 | total = 0.5583s

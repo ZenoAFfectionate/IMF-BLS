@@ -1,0 +1,9 @@
+numpy>=1.23
+# 可选：用于真实数据集（digits, iris, california housing）与训练集划分
+scikit-learn>=1.1
+# 可选：用于实验结果可视化
+matplotlib>=3.5
+# 可选：用于运行测试
+pytest>=7.0
+# 可选：仅 utils.uci_loader.load_energy_efficiency 需要（解析 .xlsx）
+openpyxl>=3.0

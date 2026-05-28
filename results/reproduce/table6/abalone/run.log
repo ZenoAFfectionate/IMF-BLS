@@ -1,0 +1,10 @@
+[2026-05-28 10:25:56] INFO    imf_bls.table6@abalone | =================================================================
+[2026-05-28 10:25:56] INFO    imf_bls.table6@abalone | Reproducing paper Table 6 | dataset=abalone | repeats=3
+[2026-05-28 10:25:56] INFO    imf_bls.table6@abalone | =================================================================
+[2026-05-28 10:25:58] INFO    imf_bls.table6@abalone | Train=2784, Test=1393, attrs=10, target shape=(2784, 1)
+[2026-05-28 10:25:58] INFO    imf_bls.table6@abalone |   Non-Incremental BLS    | RMSE = 2.6088 ± 0.1872 | time = 0.0177 ± 0.0036s
+[2026-05-28 10:25:58] INFO    imf_bls.table6@abalone |   Incremental BLS        | RMSE = 12.3740 ± 2.5915 | time = 0.0770 ± 0.0010s
+[2026-05-28 10:25:58] INFO    imf_bls.table6@abalone |   Approximation Method   | RMSE = 3.0181 ± 0.1293 | time = 0.0375 ± 0.0009s
+[2026-05-28 10:25:58] INFO    imf_bls.table6@abalone |   TiBLS                  | RMSE = 2.6059 ± 0.1933 | time = 0.0478 ± 0.0007s
+[2026-05-28 10:25:58] INFO    imf_bls.table6@abalone |   RI-BLS                 | RMSE = 2.6088 ± 0.1872 | time = 0.0252 ± 0.0001s
+[2026-05-28 10:25:59] INFO    imf_bls.table6@abalone |   IMF-BLS (Ours)         | RMSE = 2.6088 ± 0.1872 | time = 0.1292 ± 0.0010s

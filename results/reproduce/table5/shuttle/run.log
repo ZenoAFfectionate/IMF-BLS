@@ -1,0 +1,23 @@
+[2026-05-28 10:23:03] INFO    imf_bls.table5@shuttle | =================================================================
+[2026-05-28 10:23:03] INFO    imf_bls.table5@shuttle | Reproducing paper Table 5 | dataset=shuttle
+[2026-05-28 10:23:03] INFO    imf_bls.table5@shuttle | =================================================================
+[2026-05-28 10:23:29] INFO    imf_bls.table5@shuttle | =================================================================
+[2026-05-28 10:23:29] INFO    imf_bls.table5@shuttle | Reproducing paper Table 5 | dataset=shuttle
+[2026-05-28 10:23:29] INFO    imf_bls.table5@shuttle | =================================================================
+[2026-05-28 10:23:31] INFO    imf_bls.table5@shuttle | Train=43500, Test=14500, classes=7, batches=5
+[2026-05-28 10:23:33] INFO    imf_bls.table5@shuttle |   Non-Incremental BLS    | final acc = 0.9959 | total = 1.8157s
+[2026-05-28 10:24:41] INFO    imf_bls.table5@shuttle |   Incremental BLS        | final acc = 0.7712 | total = 67.0027s
+[2026-05-28 10:25:20] INFO    imf_bls.table5@shuttle |   TiBLS                  | final acc = 0.9959 | total = 37.1335s
+[2026-05-28 10:25:26] INFO    imf_bls.table5@shuttle |   Approximation Method   | final acc = 0.9953 | total = 5.0778s
+[2026-05-28 10:25:29] INFO    imf_bls.table5@shuttle |   RI-BLS                 | final acc = 0.9959 | total = 2.3507s
+[2026-05-28 10:25:45] INFO    imf_bls.table5@shuttle |   IMF-BLS (Ours)         | final acc = 0.9959 | total = 14.4651s
+[2026-05-28 10:35:50] INFO    imf_bls.table5@shuttle | =================================================================
+[2026-05-28 10:35:50] INFO    imf_bls.table5@shuttle | Reproducing paper Table 5 | dataset=shuttle
+[2026-05-28 10:35:50] INFO    imf_bls.table5@shuttle | =================================================================
+[2026-05-28 10:35:50] INFO    imf_bls.table5@shuttle | Train=43500, Test=14500, classes=7, batches=5
+[2026-05-28 10:35:53] INFO    imf_bls.table5@shuttle |   Non-Incremental BLS    | final acc = 0.9959 | total = 1.9259s
+[2026-05-28 10:37:01] INFO    imf_bls.table5@shuttle |   Incremental BLS        | final acc = 0.7712 | total = 67.5659s
+[2026-05-28 10:37:40] INFO    imf_bls.table5@shuttle |   TiBLS                  | final acc = 0.9959 | total = 37.5663s
+[2026-05-28 10:37:46] INFO    imf_bls.table5@shuttle |   Approximation Method   | final acc = 0.9953 | total = 5.0914s
+[2026-05-28 10:37:50] INFO    imf_bls.table5@shuttle |   RI-BLS                 | final acc = 0.9959 | total = 2.3781s
+[2026-05-28 10:38:06] INFO    imf_bls.table5@shuttle |   IMF-BLS (Ours)         | final acc = 0.9959 | total = 14.6306s

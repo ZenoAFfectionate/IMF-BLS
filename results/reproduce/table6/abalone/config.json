@@ -1,0 +1,21 @@
+{
+  "experiment": "table6@abalone",
+  "started_at": "2026-05-28 10:25:58",
+  "config": {
+    "table": "6",
+    "dataset": "abalone",
+    "n_train": 2784,
+    "n_test": 1393,
+    "attributes": 10,
+    "repeats": 3,
+    "seed": 0,
+    "bls": {
+      "n_mapping_per_window": 10,
+      "n_mapping_windows": 10,
+      "n_enhancement": 600,
+      "reg_lambda": 1e-06,
+      "activation": "tanh",
+      "seed": 0
+    }
+  }
+}

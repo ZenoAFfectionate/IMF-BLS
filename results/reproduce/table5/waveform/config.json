@@ -1,0 +1,21 @@
+{
+  "experiment": "table5@waveform",
+  "started_at": "2026-05-28 10:38:06",
+  "config": {
+    "table": "5",
+    "dataset": "waveform",
+    "n_train": 4200,
+    "n_test": 800,
+    "n_classes": 3,
+    "n_batches": 5,
+    "seed": 0,
+    "bls": {
+      "n_mapping_per_window": 10,
+      "n_mapping_windows": 10,
+      "n_enhancement": 600,
+      "reg_lambda": 1e-06,
+      "activation": "tanh",
+      "seed": 0
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "experiment": "table6@appliances_energy",
+  "started_at": "2026-05-28 10:27:26",
+  "config": {
+    "table": "6",
+    "dataset": "appliances_energy",
+    "n_train": 15788,
+    "n_test": 3947,
+    "attributes": 6,
+    "repeats": 3,
+    "seed": 0,
+    "bls": {
+      "n_mapping_per_window": 10,
+      "n_mapping_windows": 10,
+      "n_enhancement": 600,
+      "reg_lambda": 1e-06,
+      "activation": "tanh",
+      "seed": 0
+    }
+  }
+}
